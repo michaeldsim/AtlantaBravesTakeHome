@@ -44,7 +44,12 @@ This project is a full-stack web application for visualizing baseball player sta
    npm install
    ```
 
-3. **Start the React development server:**
+3. **Create `.env` file:**
+   ```]
+   VITE_API_URL=http://localhost:5000
+   ```
+
+4. **Start the React development server:**
    ```bash
    npm run dev
    ```
